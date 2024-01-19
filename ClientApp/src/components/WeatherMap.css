@@ -1,0 +1,8 @@
+﻿/* WeatherMap.css */
+.weather-map-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+/* Add additional styling as needed */

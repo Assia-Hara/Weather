@@ -1,0 +1,54 @@
+﻿/* NavMenu.css */
+
+/* Adjusted styling for navbar container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://example.com/path/to/your/image.jpg'); /* Replace with the actual URL to your image */
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    padding: 10px 20px; /* Adjust padding for the navbar container */
+}
+
+.nav-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181616; /* Dark grey background */
+    padding: 10px 20px; /* Adjust padding for the navbar container */
+}
+
+/* Optional: Adjust padding for the navbar brand */
+.navbar-brand {
+    padding: 0.5rem 0;
+    color: #fff; /* White text color for the brand */
+    font-size: 1.5rem; /* Adjust font size for the brand */
+}
+
+/* Updated styling for nav items */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+/* Adjusted styling for nav links */
+.navbar-nav a {
+    color: #fff; /* White text color for the links */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem; /* Adjust font size for the links */
+}
+
+/* Updated styling for Logout */
+.navbar-text {
+    margin-right: 15px;
+    color: #fff; /* White text color for the text */
+    font-size: 1rem; /* Adjust font size for the text */
+}
